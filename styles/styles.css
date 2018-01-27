@@ -1,1 +1,56 @@
 
+.jumbotron {
+background-color: white;
+
+
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 200px auto auto auto 100px;
+  grid-template-areas:
+    "n n"
+    "b b"
+    "a e"
+    "c c"
+    "f f";
+  font-size: 1.5em;
+
+}
+
+ #banner{
+
+   grid-area: b;
+   flex-direction: column;
+   text-align: center;
+   background-image: url("../img/WaterPokemon.jpeg");
+   padding-top: 3%;
+   padding-left:20%;
+   padding-right: 20%;
+
+ }
+
+ #banner h1 {
+   margin: auto;
+   font-size: 147%;
+ }
+
+  #about{
+    margin-top: 30px;
+    grid-area: a;
+    font-size: 1em
+  }
+
+  #experience{
+    margin-top: 30px;
+    grid-area: e;
+    font-size: 1em
+  }
+
+  mark{
+    background-color: lightblue;
+    color: black;
+
+  }
