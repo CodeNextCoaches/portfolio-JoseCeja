@@ -22,7 +22,6 @@
   grid-area: b;
   margin-left: 0%;
   margin-right: 0%;
-  background-image: url("../img/giphy.gif");
   border-style: solid;
 
 }
@@ -30,6 +29,9 @@
 .circle{
   border-radius: 50%;
   border-style: solid;
+  margin-left: 60%;
+  float: right;
+  margin-bottom: 70%;
 }
 #Name{
   margin-top: 0%;
