@@ -7,7 +7,7 @@
 }
 
 .jumbotron{
-
+  margin-top: 2%;
   border-style: solid;
 
 
@@ -17,6 +17,9 @@
   border-radius: 50%;
   border-style: solid;
   float: right;
+  width: 150px;
+  height: 150px;
+
 }
 
 #Name{
@@ -33,4 +36,6 @@
 }
 
 #experience{
+  border-style: solid;
+  margin-left:5%;
 }
