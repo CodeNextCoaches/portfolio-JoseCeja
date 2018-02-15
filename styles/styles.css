@@ -19,10 +19,16 @@
 .jumbotron{
   padding-bottom:15%;
   margin-top:12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 200px auto auto auto 100px;
+  grid-template-areas:
+    "t i";
   grid-area: b;
   margin-left: 0%;
   margin-right: 0%;
   border-style: solid;
+
 
 }
 
@@ -32,11 +38,13 @@
   margin-left: 60%;
   float: right;
   margin-bottom: 70%;
+  grid-area: i;
 }
 #Name{
   margin-top: 0%;
   text-align: center;
   margin-right: 10%;
+  grid-area: t;
 }
 .nav-link{
 
@@ -53,5 +61,7 @@
 #experience{
   margin-top: 20%;
   grid-area: e;
+  border-style: solid;
+  margin-left: 5%;
 
 }
