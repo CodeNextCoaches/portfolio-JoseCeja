@@ -1,32 +1,13 @@
 .container {
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px 200px auto auto auto 100px;
-  grid-template-areas:
-    "n n"
-    "b b"
-    "a e"
-    "c c"
-    "f f";
   font-size: 1.5em;
 
 }
 .navbar{
-  grid-area: n;
+
 }
 
 .jumbotron{
-  padding-bottom:15%;
-  margin-top:12px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px 200px auto auto auto 100px;
-  grid-template-areas:
-    "t i";
-  grid-area: b;
-  margin-left: 0%;
-  margin-right: 0%;
+
   border-style: solid;
 
 
@@ -35,33 +16,21 @@
 .circle{
   border-radius: 50%;
   border-style: solid;
-  margin-left: 60%;
   float: right;
-  margin-bottom: 70%;
-  grid-area: i;
 }
+
 #Name{
-  margin-top: 0%;
   text-align: center;
-  margin-right: 10%;
-  grid-area: t;
 }
+
 .nav-link{
 
 }
 
-
 #about{
-  margin-top: 20%;
-  grid-area: a;
   border-style: solid;
 
 }
 
 #experience{
-  margin-top: 20%;
-  grid-area: e;
-  border-style: solid;
-  margin-left: 5%;
-
 }
